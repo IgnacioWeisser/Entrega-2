@@ -101,6 +101,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Heebo', sans-serif;
     color: rgb(13, 70, 119);
@@ -219,3 +220,4 @@ a {
 
     
 }
+.
