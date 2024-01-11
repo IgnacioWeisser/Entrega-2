@@ -21,7 +21,7 @@ li {
 }
 
 body {
-    background-color: rgb(0, 225, 255);
+    background-color: rgb(126, 130, 131);
 }
 
 a {
@@ -76,7 +76,7 @@ a {
 
 .textoindex {
     display: flex;
-    padding: 150px;
+    padding: 50px;
     align-items:;
     text-align: justify;
     font-family: 'Bebas Neue', sans-serif;
@@ -215,7 +215,7 @@ a {
     height: 3rem;
     justify-content: center;
     align-items: center;
-    background-color: rgb(108, 110, 250);
+    background-color: rgb(87, 87, 95);
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Heebo', sans-serif;
 
