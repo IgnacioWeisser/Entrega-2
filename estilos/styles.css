@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(126, 130, 131);
+}
+body header nav div ul li {
+  list-style: none;
+}
+body header nav div ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+main section h1 {
+  color: aliceblue;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 90px;
+  text-align: center;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+  padding: 2rem;
+}
+main section h2 {
+  display: flex;
+  padding: 5%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Heebo", sans-serif;
+  color: rgb(13, 70, 119);
+  padding-bottom: 1rem;
+  animation-duration: 2.5s;
+  animation-name: animLogo;
+}
+
+@keyframes animLogo {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotateY(180deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotateY(360deg);
+  }
+}
+footer {
+  font-family: fantasy;
+  position: relative;
+  bottom: 100;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(87, 87, 95);
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Heebo", sans-serif;
+}
+
+.imgytexto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 60px 0px 60px 0;
+}
+.imgytexto .imgindex {
+  height: 300px;
+  padding: 10px;
+}
+
+.textoindex, main div section .subtitulo3 {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  text-align: justify;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Heebo", sans-serif;
+  color: rgb(13, 70, 119);
+}
+
+.video1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+main div .textosobrenosotros {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  text-align: justify;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Heebo", sans-serif;
+  color: rgb(12, 40, 65);
+}
+
+main div section .subtitulo3 {
+  color: rgb(38, 0, 255);
+}
+
+main section .posicionimg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1px 0px 60px;
+}
+main .subtitulo3 {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  text-align: justify;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Heebo", sans-serif;
+  color: rgb(13, 70, 119);
+}
+main section .imgindex2 {
+  height: 400px;
+  padding: 10px;
+}
+
+main section .Textocontacto {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  text-align: justify;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Heebo", sans-serif;
+  color: rgb(13, 70, 119);
+}
+main section .posicionformulario {
+  padding: 30px;
+}
+main section .posicionformulario .nombre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main section .posicionformulario .edad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main section .posicionformulario .instrumento {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main section .posicionformulario .correo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main section .posicionformulario .rellenoform {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .maps1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0 80px 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,9 @@
+@mixin textomixin ($colormix){
+    display: flex;
+    padding: $pad;
+    align-items: center;
+    text-align: justify;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    color: $colormix;
+}

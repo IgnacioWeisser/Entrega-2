@@ -1,0 +1,35 @@
+ 
+.imgytexto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px 0px 60px 0;
+    
+
+    .imgindex {
+        height: 300px;
+        padding: 10px;
+        
+    }
+}
+
+.textoindex {
+    display: flex;
+    padding: 50px;
+    align-items:$cen;
+    text-align: $just;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    color: $color;
+    
+}
+
+.video1 {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    
+}

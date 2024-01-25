@@ -1,0 +1,8 @@
+main {
+    div {
+        .textosobrenosotros {
+            @include textomixin(rgb(12, 40, 65));
+            
+        }
+    }
+}

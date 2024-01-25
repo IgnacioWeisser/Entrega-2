@@ -54,13 +54,13 @@ a {
 .subtitulo {
     display: flex;
     padding: 2rem;
-    align-items: ;
+    align-items:center ;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Heebo', sans-serif;
     color: rgb(13, 70, 119);
 
 }
-.
+
 .imgytexto {
     display: flex;
     flex-wrap: wrap;
@@ -77,7 +77,7 @@ a {
 .textoindex {
     display: flex;
     padding: 50px;
-    align-items:;
+    align-items:center;
     text-align: justify;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Heebo', sans-serif;
@@ -87,7 +87,7 @@ a {
 .subtitulo2 {
     display: flex;
     padding: 5%;
-    align-items:;
+    align-items:center;
     justify-content: center;
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
@@ -218,7 +218,6 @@ a {
     background-color: rgb(87, 87, 95);
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Heebo', sans-serif;
-
-    
 }
+
 

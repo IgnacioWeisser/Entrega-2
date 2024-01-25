@@ -1,0 +1,27 @@
+main {
+    section{
+    .posicionimg {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 1px 0px 60px;
+        
+    }
+    }
+    .subtitulo3 {
+        display: flex;
+        padding: $pad;
+        align-items: $cen;
+        text-align: $just;
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Heebo', sans-serif;
+        color: $color;  
+    }
+    section {
+        .imgindex2 {
+            height: 400px;
+            padding: 10px;
+        }
+    }
+}
+

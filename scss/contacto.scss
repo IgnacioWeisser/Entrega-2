@@ -1,0 +1,56 @@
+main {
+    section {
+        .Textocontacto {
+            display: flex;
+            padding: map-get($estilo, padi );
+            align-items: map-get($estilo, ceni);
+            text-align: map-get($estilo , justi);
+            font-family: 'Bebas Neue', sans-serif;
+            font-family: 'Heebo', sans-serif;
+            color: $color;
+        }
+    }
+
+    section {
+        .posicionformulario {
+            padding: 30px;
+
+            .nombre {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: map-get($estilo, cencontaci);
+            }
+
+            .edad {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: $cencontac;
+            }
+
+            .instrumento {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: $cencontac;
+            }
+
+            .correo {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: $cencontac;
+            }
+
+            .rellenoform {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: $cencontac;
+            }
+        }
+    }
+    .maps1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: $cen;
+        padding: 20px 0 80px 0;
+    }
+}
+
