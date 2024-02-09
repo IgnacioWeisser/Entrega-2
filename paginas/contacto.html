@@ -56,36 +56,42 @@
 
 
         <section>
-            <div class="posicionformulario">
-                <form action="">
-                    <div class="nombre">
-                        <label for="nombreusuario">Nombre y apellido</label>
-                        <input type="text" name="nombreuscsuario" id="nombreusuario">
+            <div class="container">
+                <form>
+                    <div class="mb-3">
+                        <label for="nombreusuario" class="form-label">Nombre y apellido</label>
+                        <input type="text" class="form-control" id="nombreusuario" name="nombreusuario">
                     </div>
-                    <div class="edad">
-                        <label for="edad">Edad</label>
-                        <input type="number" name="edad">
+                    <div class="mb-3">
+                        <label for="edad" class="form-label">Edad</label>
+                        <input type="number" class="form-control" id="edad" name="edad">
                     </div>
-                    <div class="instrumento">
-                        <label for="instrumento">Instrumento</label>
-                        <select name="instrumento" id="">
+                    <div class="mb-3">
+                        <label for="instrumento" class="form-label">Instrumento</label>
+                        <select class="form-select" id="instrumento" name="instrumento">
                             <option value="guitarra">Guitarra</option>
                             <option value="bajo">Bajo</option>
                             <option value="ukelele">Ukelele</option>
+                            <option value="piano">Piano</option>
+                            <option value="batería">Batería</option>
+                            <option value="violín">Violín</option>
+                            <option value="saxofón">Saxofón</option>
+                            <option value="trompeta">Trompeta</option>
+                            <option value="clarinete">Clarinete</option>
+                            <option value="flauta">Flauta</option>
                         </select>
                     </div>
-                    <div class="correo">
-                        <label for="correo">E-Mail</label>
-                        <input type="email" name="correo">
+                    <div class="mb-3">
+                        <label for="correo" class="form-label">E-Mail</label>
+                        <input type="email" class="form-control" id="correo" name="correo">
                     </div>
-                    <div class="rellenoform">
-                        <input type="reset" value="Borrar">
-                        <input type="submit" value="Enviar">
-
+                    <div class="mb-3">
+                        <button type="reset" class="btn btn-secondary">Borrar</button>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
                     </div>
-
+                </form>
             </div>
-            </form>
+        </section>
         </section>
         <div class="container">
             <section>
