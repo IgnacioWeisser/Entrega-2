@@ -6,10 +6,16 @@ footer {
     display: flex;
     text-align: center;
     flex-wrap: wrap;
-    height: 3rem;
+    height: 5rem;
     justify-content: center;
     align-items: center;
     background-color: rgb(87, 87, 95);
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Heebo', sans-serif;
 }
+
+.social-media{
+    position: absolute;
+    margin: 25px 0px 0px 0px;
+}
+   
